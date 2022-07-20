@@ -93,7 +93,7 @@
                         Sign Up
                     </button>
                 </div>
-                <img src="{{ asset('signin_signup/img/log.svg') }}" class="image"
+                <img src="{{ url('signin_signup/img/log.svg') }}" class="image"
                     alt="Image Login" />
             </div>
 
@@ -107,7 +107,7 @@
                         Sign In
                     </button>
                 </div>
-                <img src="{{ asset('signin_signup/img/register.svg') }}" class="image"
+                <img src="{{ url('signin_signup/img/register.svg') }}" class="image"
                     alt="Image Register" />
             </div>
         </div>
